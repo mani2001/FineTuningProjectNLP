@@ -17,7 +17,7 @@ We have built a small UI to demonstrate the finetuned grader assistant.
 8) go to the localhost url provided by Django (within your terminal)
 9) Test the app!
     
-## Application video
+
 
 ## Fine-tuning details
 
