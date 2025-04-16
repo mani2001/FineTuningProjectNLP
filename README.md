@@ -47,7 +47,7 @@ The finetuning has been for the SAF dataset but this finetuning architecture is 
 - Take around 20% of the dataset and pass each example into a capable LLM (suggested: Llama 70B, GPT-4o, etc), provide a system prompt to change the answer by maintaining the structure but making calculation/minor errors.
 - Then take another 10% of original dataset (make sure it does not intersect with the previous 20%) and provide a prompt to the model to keep the same answer but meddle with some of the steps/details.
 - Finally we pass the modified dataset to the LLM and ask it to give scores and grading based on a RAG/system prompt based rubric. This is the most important part and determines the quality of fine-tuning later on.
-  
+![dataset](media/DatasetCuration.png)
 
 We have built a small UI to demonstrate the finetuned grader assistant.
 
