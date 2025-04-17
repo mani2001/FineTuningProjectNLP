@@ -1,4 +1,4 @@
-## PEFT Finetuning for subjective grading
+## AI Powered Grading Assistant for scoring and feedback
 
 ![Logo](media/logo.png)
 
